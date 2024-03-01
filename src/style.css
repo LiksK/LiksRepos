@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    background-color:rgb(206, 234, 253);
+}
+:root {
+    --colorful-text-color: #6DB9FF;
+    --main-text-color: black;
+    --secondary-text-color: #464646;
+    --font: "Kumbh Sans", sans-serif;
+}
+
+
+
+.header{
+    width: auto;
+    height: 8vw;
+    margin: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 7%;
+}
+.RecAplVariable{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.textVariable{
+    color: var(--main-text-color);
+    font-family: var(--font);
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.logoText{
+    color: var(--colorful-text-color);
+    font-family: var(--font);
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+
+
+
+.main{
+    margin: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainTextAiwork{
+    color: var(--colorful-text-color);
+    font-family: var(--font);
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2vw 0;
+}
+.mainTextHelper{
+    color: var(--main-text-color);
+    font-family: var(--font);
+    font-size: 2vw;
+    margin: 2vw 0;
+}
+.blueDecoration{
+    color: var(--colorful-text-color);
+}
+.mainTextFind{
+    color: var(--main-text-color);
+    font-family: var(--font);
+    font-size: 2vw;
+    margin: 2vw 0;
+
+}
+.mainPicture{
+    max-width: 40%;
+}
+
+
+
+.main1{
+    margin: 0vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+.applicantDesc, .recruterDesc{
+    width: 47.5%;
+    display: flex;
+    flex-direction: column;
+
+}
+.applicant{
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: var(--colorful-text-color);
+    font-family: var(--font);
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+.applicantDesc p {
+    font-family: var(--font);
+    font-size: 20px;
+}
+
+.recruter{
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: var(--colorful-text-color);
+    font-family: var(--font);
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+.recruterDesc p{
+    font-family: var(--font);
+    font-size: 20px;
+}
+.button{
+    background-color: var(--colorful-text-color);
+    color: var(--main-text-color);
+    margin: 5vw;
+    border-radius: 5px;
+    padding: 1.7vw;
+    font-family: var(--font);
+    font-size: 2vw;
+    border: none;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin: 0vw 10vw;
+}
+footer{
+    margin: 5vw 10vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    border: none;
+    cursor: pointer;
+    padding: 1vw;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
