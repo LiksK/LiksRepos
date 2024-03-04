@@ -1,4 +1,4 @@
-// Получаем ссылку на кнопку "Sign up"
+
 var signUpButton = document.getElementById("SignUuBTN");
 
 
