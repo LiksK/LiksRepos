@@ -1,12 +1,11 @@
 
 var signUpButton = document.getElementById("SignUuBTN");
 
-
 signUpButton.onclick = function() {
-    if(document.getElementById("firstRadio").checked == true){
+    if(document.getElementById("firstRadio").checked) {
         window.location.href = "../../public/userCont/aplicant.html"
     }
-    if(document.getElementById("secondRadio").checked == true){
+    else if(document.getElementById("secondRadio").checked){
         window.location.href = "../../public/userCont/recruter.html"
     }
     else{
